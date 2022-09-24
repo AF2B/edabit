@@ -1,0 +1,15 @@
+/home/andreborba/Documentos/edabit/C#/helloEdabit/bin/Debug/net6.0/helloEdabit
+/home/andreborba/Documentos/edabit/C#/helloEdabit/bin/Debug/net6.0/helloEdabit.deps.json
+/home/andreborba/Documentos/edabit/C#/helloEdabit/bin/Debug/net6.0/helloEdabit.runtimeconfig.json
+/home/andreborba/Documentos/edabit/C#/helloEdabit/bin/Debug/net6.0/helloEdabit.dll
+/home/andreborba/Documentos/edabit/C#/helloEdabit/bin/Debug/net6.0/helloEdabit.pdb
+/home/andreborba/Documentos/edabit/C#/helloEdabit/obj/Debug/net6.0/helloEdabit.csproj.AssemblyReference.cache
+/home/andreborba/Documentos/edabit/C#/helloEdabit/obj/Debug/net6.0/helloEdabit.GeneratedMSBuildEditorConfig.editorconfig
+/home/andreborba/Documentos/edabit/C#/helloEdabit/obj/Debug/net6.0/helloEdabit.AssemblyInfoInputs.cache
+/home/andreborba/Documentos/edabit/C#/helloEdabit/obj/Debug/net6.0/helloEdabit.AssemblyInfo.cs
+/home/andreborba/Documentos/edabit/C#/helloEdabit/obj/Debug/net6.0/helloEdabit.csproj.CoreCompileInputs.cache
+/home/andreborba/Documentos/edabit/C#/helloEdabit/obj/Debug/net6.0/helloEdabit.dll
+/home/andreborba/Documentos/edabit/C#/helloEdabit/obj/Debug/net6.0/refint/helloEdabit.dll
+/home/andreborba/Documentos/edabit/C#/helloEdabit/obj/Debug/net6.0/helloEdabit.pdb
+/home/andreborba/Documentos/edabit/C#/helloEdabit/obj/Debug/net6.0/helloEdabit.genruntimeconfig.cache
+/home/andreborba/Documentos/edabit/C#/helloEdabit/obj/Debug/net6.0/ref/helloEdabit.dll
