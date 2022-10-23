@@ -1,14 +1,14 @@
 require 'rspec'
 
 GUEST_LIST = {
-	"Randy" => "Germany", 
-	"Karla" => "France", 
-	"Wendy" => "Japan", 
-	"Norman" => "England", 
-	"Sam" => "Argentina"
+	'Randy' => 'Germany', 
+	'Karla' => 'France', 
+	'Wendy' => 'Japan', 
+	'Norman' => 'England', 
+	'Sam' => 'Argentina'
 }
 
-def greeting(name)
+def greeting name
   if GUEST_LIST.include?(name)
     "Hi!, I'm #{name}, and I'm from #{GUEST_LIST[name]}."
   else
