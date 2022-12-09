@@ -1,0 +1,5 @@
+/home/andreborba/Documents/edabit/C#/TooEasy/HowEdabitWorks/obj/Debug/net6.0/HowEdabitWorks.csproj.AssemblyReference.cache
+/home/andreborba/Documents/edabit/C#/TooEasy/HowEdabitWorks/obj/Debug/net6.0/HowEdabitWorks.GeneratedMSBuildEditorConfig.editorconfig
+/home/andreborba/Documents/edabit/C#/TooEasy/HowEdabitWorks/obj/Debug/net6.0/HowEdabitWorks.AssemblyInfoInputs.cache
+/home/andreborba/Documents/edabit/C#/TooEasy/HowEdabitWorks/obj/Debug/net6.0/HowEdabitWorks.AssemblyInfo.cs
+/home/andreborba/Documents/edabit/C#/TooEasy/HowEdabitWorks/obj/Debug/net6.0/HowEdabitWorks.csproj.CoreCompileInputs.cache
