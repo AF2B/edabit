@@ -16,7 +16,7 @@ func combinations(nums ...int) int {
 }
 
 func main() {
-	fmt.Println(combinations(2, 3))       // Deve imprimir 6
-	fmt.Println(combinations(3, 7, 4))    // Deve imprimir 84
-	fmt.Println(combinations(2, 3, 4, 5)) // Deve imprimir 120
+	fmt.Println(combinations(2, 3))       // -> 6
+	fmt.Println(combinations(3, 7, 4))    // -> 84
+	fmt.Println(combinations(2, 3, 4, 5)) // -> 120
 }
