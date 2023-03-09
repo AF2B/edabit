@@ -1,17 +1,14 @@
 bool validateEmail(String email) {
-  if (email.isEmpty) return false;
-
-  if (email.contains('.') && email.substring(email.length - 3) == 'com') {
-    if (email.substring(0, 1) != '@') {
-      if (email.contains('@')) {
-        if (email.indexOf('@') < email.indexOf('.')) {
-          return true;
-        }
-      }
-    }
+  if (email.isEmpty) {
+    return false;
   }
 
-  return false;
+  final atIndex = email.indexOf('@');
+  final dotIndex = email.lastIndexOf('.');
+  final isDotValid = dotIndex > atIndex;
+  final isDomainValid = dotIndex < email.length - 1 && dotIndex > 1;
+
+  return atIndex > 0 && isDotValid && isDomainValid;
 }
 
 void main() {
