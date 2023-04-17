@@ -4,21 +4,23 @@ namespace ArraysOfMultiples
 {
   public interface IArrayOfMultiples
   {
-    int[] arrayOfMultiples(int number, int length);
+    int[] ArrayOfMultiplesProvider(int number, int length);
   }
 
   public class ArrayOfMultiples : IArrayOfMultiples
   {
-    public int[] arrayOfMultiples(int number, int length)
+    public int[] ArrayOfMultiplesProvider(int number, int length)
     {
-      int[] emptyArray = new int[length];
+      if (length <= 0) throw new ArgumentException("length must be greater than 0");
+
+      int[] multiplesArray = new int[length];
 
       for (int i = 0; i < length; i++)
       {
-        emptyArray[i] = number * (i + 1);
+        multiplesArray[i] = number * (i + 1);
       }
 
-      return emptyArray;
+      return multiplesArray;
     }
   }
 
@@ -26,8 +28,8 @@ namespace ArraysOfMultiples
   {
     static void Main(string[] args)
     {
-      ArrayOfMultiples arrOfMultiples = new ArrayOfMultiples();
-      int[] result = arrOfMultiples.arrayOfMultiples(7, 5);
+      var arrOfMultiples = new ArrayOfMultiples();
+      int[] result = arrOfMultiples.ArrayOfMultiplesProvider(7, 5);
       Console.WriteLine(string.Join(", ", result));
     }
   }
